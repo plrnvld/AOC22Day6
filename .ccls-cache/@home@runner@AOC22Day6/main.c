@@ -2,7 +2,11 @@
 
 int main(void) {
 
-  printf("Hello World\n");
+  int numDifferent = 0;
+  int pos = 0;
+  int charCounters[26];
+    for (int i=0; i<26; i++)
+        charCounters[i] = 0;
 
   int num;
   FILE *fptr;
@@ -12,8 +16,6 @@ int main(void) {
     printf("Error! opening file");
     exit(1);
   }
-
-  printf("content of this file are \n");
 
   do {
     ch = fgetc(fptr);
