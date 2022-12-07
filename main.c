@@ -3,7 +3,7 @@
 int numDifferent = 0;
 int pos = 0;
 int charCounters[26];
-const int distinct = 4;
+const int distinct = 14;
 char prevChars[distinct];
 
 int getPos(char c) {
