@@ -15,8 +15,6 @@ int main(void) {
 
   printf("content of this file are \n");
 
-  // Printing what is written in file
-  // character by character using loop.
   do {
     ch = fgetc(fptr);
 
