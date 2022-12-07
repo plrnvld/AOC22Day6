@@ -2,7 +2,7 @@
 
 int numDifferent = 0;
 int pos = 0;
-int charCounters[4];
+int charCounters[26];
 const int distinct = 4;
 char prevChars[distinct];
 
